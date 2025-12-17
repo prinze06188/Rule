@@ -1,11 +1,2 @@
 #Apple TV
-
-DOMAIN,amp-api.videos.apple.com
-DOMAIN,is1-ssl.mzstatic.com
-DOMAIN,uts-api.itunes.apple.com
-DOMAIN,play-edge.itunes.apple.com
-DOMAIN,daf.xp.apple.com
-DOMAIN,vod-ap-aoc.tv.apple.com
-DOMAIN,vod-ap1-aoc.tv.apple.com
-DOMAIN,vod-ap1-aoc.tv.apple.com
 DOMAIN-KEYWORD,tv.apple
