@@ -1,2 +1,16 @@
-#Apple TV
-DOMAIN-KEYWORD,tv.apple
+# --- Adobe Genuine Service Block ---
+# 屏蔽正版校验核心域名
+DOMAIN,ic.adobe.io,REJECT
+DOMAIN,cc-api-data.adobe.io,REJECT
+DOMAIN,gamma-ic.adobe.io,REJECT
+DOMAIN,genuine.adobe.com,REJECT
+DOMAIN,p13n.adobe.io,REJECT
+
+# 屏蔽 Creative Cloud 桌面端静默更新与上报
+DOMAIN-SUFFIX,adobe.io,REJECT
+DOMAIN-SUFFIX,adobelogin.com,REJECT
+DOMAIN-SUFFIX,adobe.com,REJECT
+
+# 如果你想保留部分功能（如 Adobe Fonts），请改为以下更精准的屏蔽：
+# DOMAIN,cc-api-data.adobe.io,REJECT
+# DOMAIN,genuine.adobe.com,REJECT
